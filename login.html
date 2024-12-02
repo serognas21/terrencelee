@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+		
+body{
+	font-family: 'Arial', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(135deg, #00008B, #FFFF00);
+	color: darkblue;
+}
+
+.login-button{
+	background: greenyellow;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+.input-container{
+	margin-left: 40px;
+     display: flex;
+     width: 300px;
+     flex-direction: column;
+	gap: 10px;
+}
+
+.no{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.der{
+	background-color: white;
+	width: 400px;
+	height: 300px;
+}
+
+.title{
+	margin-left: 159px;
+}
+
+	</style>
+<div class="der">
+<form class="login-form">
+	<h2 class="title">Login</h2>
+	<div class="input-container">
+		<p for="Username">Username</p>
+		<input type="text" id="Username">
+		
+	</div>
+
+	<div class="input-container">
+		<p for="Password">Password</p>
+		<input type="Password" id="Password">
+	</div>
+		
+		<div class="no">
+		<a href="dashboard.html" class="login-button">Loign</a>
+
+	</form>
+</div>
+</body>
+</html>

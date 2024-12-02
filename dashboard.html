@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<style type="text/css">
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  color: violet;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #010057	;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-profile img {
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.logo h1{
+	font-size: 40px;
+}
+
+nav ul li {
+  padding: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  float: left;	
+}
+
+nav ul li:hover {
+  background-color: darkblue;
+  width: 100%;
+}
+
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #ffd22b;
+}
+
+header .button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 50px;
+  color: black;
+}
+
+.inventory, .total-purchase {
+  background-color: #023e8a;
+  margin-bottom: 25px;
+}
+
+.inventory h2{
+	color: white;
+	font-size: 40px;
+}
+
+.total-purchase{
+	color: white;
+	font-size: 40px;
+}
+
+h1{
+color: yellow;
+}
+
+</style>
+
+    <aside class="sidebar">
+      <div class="logo">
+        <h1>LOGIFLEX</h1>
+      </div>
+     <br>
+   	 <br>
+
+      <div class="user-profile">
+        <img src="tao.png" alt="User">
+        <p>terrence serognas</p>
+      </div>
+
+      <nav>
+        <ul>
+          <li>PROFILE</li>
+          <li>ORDERS</li>
+          <li>DELIVERY</li>
+          <li>INVENTORY</li>
+          <li>NOTIFICATION</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <header>
+        <a href="login.html" class="button">LOGOUT</a>
+	</header>
+
+      <section class="content">
+        <div class="inventory">
+        	<center>
+          <h2>Total Sales</h2>
+          <img src="pie.png" width="50%">
+		</center>
+
+            <!-- Add a placeholder for the inventory chart -->
+          </div>
+        </div>
+        <div class="total-purchase">
+          <h2>Monthly Sales Trend</h2>
+          <img src="chart.png">
+
+        <div class="logi">
+          <img src="logiflex2.png" style="width: -100px; height: 100px; float: left; margin-top: -1260px;">
+
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+
+
+</body>
+</html>
